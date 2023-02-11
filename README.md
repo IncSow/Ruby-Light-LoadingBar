@@ -2,11 +2,11 @@
 
 ### How to use : 
 require the file
-call LoadingBar.output
+call `LoadingBar.output` in each of the iterations of your program
 
 Output takes two arguments : The current progression and the total progression.
 
-If you have already calculated your completion rate (in %), you can simply print LoadingBar.output_string(completion_rate)
+If you have already calculated your completion rate (in %), you can simply print `LoadingBar.output_string(completion_rate)`
 
 
 Exemple use : 
