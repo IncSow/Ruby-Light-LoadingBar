@@ -24,6 +24,7 @@ class LoadingBar
 	
 	def self.output(current_progression, total_progression)
 		completion_rate = calculate_progress_rate(current_progression, total_progression)
+		raise StandardError.new "Your progress rate can't be over 100% ! Currently #{completion_rate}" if completion_rate > 100
 		print(output_string(completion_rate))
 	end
 
