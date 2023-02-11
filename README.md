@@ -1,7 +1,6 @@
 # LoadingBar in ruby 
 
 ### How to use : 
-require the file
 call `LoadingBar.output` in each of the iterations of your program
 
 Output takes two arguments : The current progression and the total progression.
