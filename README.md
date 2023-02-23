@@ -13,6 +13,7 @@ Exemple use :
 ```ruby
 start = 0
 51.times do 
+	# Using print is very important! Do not use p or puts !
 	print(LoadingBar.output(start, 50))
 	sleep(0.1)
 	start +=1
